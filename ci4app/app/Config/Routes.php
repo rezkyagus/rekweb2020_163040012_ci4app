@@ -31,18 +31,7 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
-$routes->get('/Coba/index', 'Coba::index');
-$routes->get('/Coba/about', 'Coba::about');
-$routes->get('/Coba/(:any)', 'Coba::about/$1');
-
-$routes->get('/Users', 'Admin\Users::index');
-
-//any = itu mau apapun
-//num = itu hanya angka
-//segment = itu apapun kecuali /
-//alpha = itu hanya huruf
-//alphanum = itu hanya huruf dan angka, kharakter gamasuk
+$routes->get('/', 'Pages::index');
 
 /**
  * --------------------------------------------------------------------
