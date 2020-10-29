@@ -19,7 +19,7 @@
                             <a href="" class="btn btn-warning">Edit</a>
                             <a href="" class="btn btn-danger">Delete</a>
                             <br></br>
-                            <a href="/komik">Kembali Ke Daftar Komik</a>
+                            <a href="/komik" class="btn btn-primary">Kembali Ke Daftar Komik</a>
                         </div>
                     </div>
                 </div>
